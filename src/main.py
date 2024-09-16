@@ -5,7 +5,6 @@ class Minesweeper:
         self.width = width
         self.height = height
         self.bombsQuantity = bombsQuantity
-        self.campo = [['-' for _ in range(height)] for _ in range(width)]
         self.bombs = set()
         self.is_showed = set()
         self.create_bombs()
